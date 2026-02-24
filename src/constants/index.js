@@ -35,43 +35,42 @@ export const myProjects = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   title: "Authentication & Authorization System",
-  //   description:
-  //     "A secure authentication and authorization system using Auth0 for seamless user management.",
-  //   subDescription: [
-  //     "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-  //     "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-  //     "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-  //     "Connected to a secure SQLite database for user data storage.",
-  //   ],
-  //   href: "",
-  //   logo: "",
-  //   image: "/assets/projects/auth-system.jpg",
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: "Auth0",
-  //       path: "/assets/logos/auth0.svg",
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "React",
-  //       path: "/assets/logos/react.svg",
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "SQLite",
-  //       path: "/assets/logos/sqlite.svg",
-  //     },
-  //     {
-  //       id: 4,
-  //       name: "TailwindCSS",
-  //       path: "/assets/logos/tailwindcss.svg",
-  //     },
-  //   ],
-  // },
+  {
+    id: 2,
+    title: "GSAP TheSipSociety",
+    description:
+      "Build and deploy a stunning GSAP-powered cocktail website, scroll-driven experience packed with advanced animations.",
+    subDescription: [
+      "GSAP is a powerful JavaScript animation library used in this project to create dynamic, scroll-driven visuals.",
+      "React is a declarative JavaScript library for building interactive UIs, allowing smooth integration of GSAP animations.",
+      "pinned sections, scroll-synced video playback, seamless multi-section timelines, image masking effects, and a fully custom animated carousel",
+    ],
+    href: "https://thesipsociety.vercel.app/",
+    logo: "",
+    image: "/assets/projects/GsapCocktails.png",
+    tags: [
+      {
+        id: 1,
+        name: "Auth0",
+        path: "/assets/logos/Gsap.png",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
+      },
+    ],
+  },
   // {
   //   id: 3,
   //   title: "Blazor Web App",
